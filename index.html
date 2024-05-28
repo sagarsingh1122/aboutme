@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar Singh's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        .content {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        .instagram {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .instagram img {
+            width: 50px;
+            height: 50px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sagar Singh</h1>
+    </header>
+    <div class="container">
+        <section class="content">
+            <img src="sagar.jpeg" alt="Sagar Singh" class="profile-img">
+            <h2>About Me</h2>
+            <p>Name: Sagar Singh</p>
+            <p>Class: 12th</p>
+            <p>Section: A</p>
+            <p>Roll No: 53</p>
+            <p>Fav Game: Football</p>
+            <p>Address: Jehanabad, Bihar</p>
+            <p>Hello! I am Sagar Singh, a 12th-grade student from Jehanabad, Bihar. I love playing football and have a keen interest in various activities. I am always eager to learn new things and take on challenges. Feel free to reach out to me through the contact form below or follow me on Instagram!</p>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="mailto:sagars93371@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+        <div class="instagram">
+            <a href="https://www.instagram.com/sagar_singh1988?igsh=MTd3bzhpd2RubWRxYQ==">
+                <img src="instagram.jpeg" alt="Instagram">
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sagar Singh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
